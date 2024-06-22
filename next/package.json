@@ -10,6 +10,13 @@
     "format": "next lint --fix --dir src"
   },
   "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.7",
+    "@mui/lab": "^5.0.0-alpha.142",
+    "@mui/material": "^5.14.7",
     "@types/node": "20.14.2",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
@@ -27,6 +34,11 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^3.0.3",
-    "typescript-eslint": "^0.0.1-alpha.0"
+    "typescript-eslint": "^0.0.1-alpha.0",
+    "axios": "1.5.0",
+    "swr": "^2.2.2"
+  },
+  "devDependencies": {
+    "@emotion/babel-plugin": "^11.11.0"
   }
 }
